@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JINZE&#39;S BLOG</title>
+    <link>https://JinzeCao.github.io/</link>
+    <description>Recent content on JINZE&#39;S BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/natarajmb&#34;&gt;Nataraj Basappa&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Tue, 26 Apr 2022 09:18:01 +0800</lastBuildDate><atom:link href="https://JinzeCao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://JinzeCao.github.io/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://JinzeCao.github.io/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>ArcGIS-Learning2</title>
+      <link>https://JinzeCao.github.io/posts/arcgis-learning2/</link>
+      <pubDate>Tue, 26 Apr 2022 09:18:01 +0800</pubDate>
+      
+      <guid>https://JinzeCao.github.io/posts/arcgis-learning2/</guid>
+      <description>地理信息数据  一个完整的shap文件就包括以下四个部分。shp是形状文件，prj是投影文件，dbf是（databasefile）数据库文件，shx是索引文件。 常见栅格数据格式是tif 地理数据获取方式，地理空间数据库；SRTM Data Search文件库；natrue earch,raster栅格；diva-gis；国家基础地理信息数据百度云； 地理坐标系统，球面和投影坐标系统，拓扑规则是用来表示地理空间关系的一个重要的法则。制图表达上面可以进行相关的操作。  </description>
+    </item>
+    
+    <item>
+      <title>cosarDomesticRoadInfrastructure2016</title>
+      <link>https://JinzeCao.github.io/posts/cosardomesticroadinfrastructure2016-/</link>
+      <pubDate>Tue, 26 Apr 2022 09:18:01 +0800</pubDate>
+      
+      <guid>https://JinzeCao.github.io/posts/cosardomesticroadinfrastructure2016-/</guid>
+      <description>Coşar, A. Kerem, and Banu Demir. 2016. “Domestic Road Infrastructure and International Trade: Evidence from Turkey.” Journal of Development Economics 118 (January): 232–44. Tags: investment-and-improement-of-infrastracture, #trade-flow, #transportation-cost   Mdnotes File Name: [[cosarDomesticRoadInfrastructure2016]]  * Research Question   Research Question
+ how internal transportation infrastructure affects regional access to international markets. we estimate the distance elasticity of trade associated with roads of varying capacity.    Results</description>
+    </item>
+    
+    <item>
+      <title>RegionalEconomics-Learning3</title>
+      <link>https://JinzeCao.github.io/posts/regionaleconomics-learning3/</link>
+      <pubDate>Tue, 26 Apr 2022 08:40:51 +0800</pubDate>
+      
+      <guid>https://JinzeCao.github.io/posts/regionaleconomics-learning3/</guid>
+      <description>&lt;h1 id=&#34;安虎森讲空间经济学&#34;&gt;安虎森讲空间经济学&lt;/h1&gt;
+&lt;h5 id=&#34;摘要&#34;&gt;&lt;code&gt;摘要&lt;/code&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;在核心边缘模型的基础上，从劳动力技能、投入和产出之间的关系以及制造业的技术进步三个角度来分析产业集聚的原因。&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ArcGIS-Learning1</title>
+      <link>https://JinzeCao.github.io/posts/arcgis-learning1/</link>
+      <pubDate>Mon, 25 Apr 2022 12:40:30 +0800</pubDate>
+      
+      <guid>https://JinzeCao.github.io/posts/arcgis-learning1/</guid>
+      <description>&lt;h1 id=&#34;地理信息系统&#34;&gt;地理信息系统&lt;/h1&gt;
+&lt;h4 id=&#34;摘要&#34;&gt;&lt;code&gt;摘要&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;地理信息系统是什么，核心问题和功能是什么，包括什么数据，数据由什么构成；以及地理信息系统与区域经济学。&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RegionalEconomics-Learning2</title>
+      <link>https://JinzeCao.github.io/posts/regionaleconomics-learning2/</link>
+      <pubDate>Mon, 25 Apr 2022 08:35:17 +0800</pubDate>
+      
+      <guid>https://JinzeCao.github.io/posts/regionaleconomics-learning2/</guid>
+      <description>&lt;h1 id=&#34;安虎森讲空间经济学&#34;&gt;安虎森讲空间经济学&lt;/h1&gt;
+&lt;h4 id=&#34;摘要&#34;&gt;&lt;code&gt;摘要&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;核心边缘结构基于劳动力可变资本不可变的假设，延续本地市场模型和规模，得出&amp;lt;产业集聚&amp;gt;的结论；在规模收益递增的情况下，如果降低运输成本，那么一些区域通过扩大自身市场规模的方式，建立自身的比较优势；但是解释了存在一系列的局限&amp;lt;包括无法达到均衡&amp;gt;。&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RegionalEconomics-Learning1</title>
+      <link>https://JinzeCao.github.io/posts/regionaleconomics-learning1/</link>
+      <pubDate>Sun, 24 Apr 2022 19:36:50 +0800</pubDate>
+      
+      <guid>https://JinzeCao.github.io/posts/regionaleconomics-learning1/</guid>
+      <description>&lt;h1 id=&#34;安虎森讲空间经济学&#34;&gt;安虎森讲空间经济学&lt;/h1&gt;
+&lt;h4 id=&#34;摘要&#34;&gt;&lt;code&gt;摘要&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;空间经济学主要研究内容，涉及分支；区域不平衡发展的作用力&amp;lt;聚集力和分散力&amp;gt;；本地市场效应。&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

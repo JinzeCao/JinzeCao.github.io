@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>ArcGIS-Learning1 | JINZE&#39;S BLOG</title>
+
+<link rel="stylesheet" href="https://JinzeCao.github.io//css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://JinzeCao.github.io//js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://JinzeCao.github.io//js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://JinzeCao.github.io/"><h1 class="title is-3">JINZE&#39;S BLOG</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://JinzeCao.github.io/about" rel="me">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/natarajmb/" rel="me">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/in/natarajmb/" rel="me">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/natarajmb/" rel="me">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+
+<div class="container">
+  <h2 class="subtitle is-6">April 25, 2022</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">ArcGIS-Learning1</h1>
+  <div class="content">
+    <h1 id="地理信息系统">地理信息系统</h1>
+<h4 id="摘要"><code>摘要</code></h4>
+<p><code>地理信息系统是什么，核心问题和功能是什么，包括什么数据，数据由什么构成；以及地理信息系统与区域经济学。</code></p>
+<h4 id="1地理信息系统基础">1.地理信息系统基础</h4>
+<ul>
+<li>
+<p><code>&lt;地理信息&gt;</code><strong>地理数据</strong>包含地理特征和现象间关系的符号化表示，包括空间位置、属性特征、及时域特征三部分。<strong>空间位置数据</strong>描述地物所在位置，这种位置可以参照到底参照系定义，如大地经纬度坐标，也可以定义为地物位置关系，如空间上的相邻和包含；<strong>属性特征</strong>是非空间数据，是描述特定地理要素特征的定性或定量指标。<strong>时域特征</strong>是地理数据采集或地理现象发生的时刻或时段。</p>
+</li>
+<li>
+<p><code>&lt;地理信息系统GIS&gt;</code>是一种非常重要的空间信息系统。CIS的操作对象是<strong>空间数据</strong>，即点线面体这有<strong>三维要素</strong>的地理实体。空间数据的最根本特点是每一个数据都按统一的<strong>地理坐标</strong>进行编码，实现对其定位、定性和定量的描述，这是GIS区别于其他类型信息的根本标志。</p>
+</li>
+<li>
+<p><code>&lt;空间数据&gt;</code>空间数据是地理信息系统的载体，是地理信息系统的操作对象，它具体包括空间特征、属性特征和时间特征。<strong>空间特征</strong>是指地理实体的空间位置及其相互关系；<strong>属性特征</strong>表示地理实体名称、类型和数量等；<strong>时间特征</strong>指实体随时间发生的相关变化。空间数据可以抽象成为<strong>点、线、面三类要素</strong>，他们的数据表达可以采用<strong>矢量和栅格</strong>两种方式，分别成为矢量数据结构和栅格数据结构。</p>
+</li>
+<li>
+<p><code>&lt;地理信息系统的核心问题&gt;</code>地理信息系统作为空间数据的处理、管理和分析系统，在应用方面，就其能够回答和解决的问题而言，归纳起来主要由以下几类：<strong>位置、条件、趋势、模式和模拟</strong>。<code>1.位置</code>位置可以解决某一事物或现象发生在什么位置、灾厄定位置有什么和是什么等问题，例如沙尘暴的源头在设么地方？其受影响的区域在哪里？最近的位置在哪里？位置的表达可以有多种形式，如由<strong>地理坐标确定的绝对位置、由空间关系确定的相对位置，由行政划代码或邮政编码确定的位置、由地名或建筑物名称确定的位置等</strong>。在GIS中，可以通过查询、分析、适宜性等方式获取地理位置。<code>2.条件</code>条件时<strong>解决符合某种条件</strong>的地理对象是什么、在哪里的问题。如京九路经过哪些城市可以根据地理对象的属性信息、空间位置、相互关系等特征，采用一个条件或多个条件组合进行查询，从而获取满足条件的地理对象。<code>3.趋势</code>趋势是解决某一地理现象随时间变化而变化的问题，其根本目的是<strong>预测该事物在未来的可能性情况进而做出科学的决策</strong>。通常，它需要根据研究对象的发生机理，结合影响该对象发生和变化的因子，对未来做出判断。GIS中可以根据趋势因子的相关数据，采用<strong>叠加分析、缓冲区分析、模型分析等方法来解决此类问题</strong>。<code>4.模式</code>模式是把解决某一类问题的方法归纳到理论的高度。因此，模式是解决某一类问题的方法论。<strong>GIS所能解决的问题模式主要是指地理对象实体或现象之间的空间关系模式</strong>。如交通网络模式。找出事件发生的因素，建立关系模型，最后获得解决办法。<code>5.模拟</code>GIS可以对高度复杂的地球系统进行研究和实验。</p>
+</li>
+<li>
+<p><code>&lt;地理信息系统的功能&gt;</code>首先从现实世界直接或间接获取数据，然后对数据进行编辑和处理，进而得到结构化数据，建立空间数据库来管理，对数据库进行展示或制成产品输出。</p>
+</li>
+</ul>
+<h4 id="2地理信息系统与区域经济学">2.地理信息系统与区域经济学</h4>
+<ul>
+<li><code>地理信息系统与区域经济学</code>主流经济学研究：生产什么？为谁生产？怎样生产？而区域经济学研究的是在哪生产且基于规模递增和不完全竞争假设。GIS可以在几个方面丰富区域经济学1.通过将区位纳入研究范畴；2.GIS的输出功能可以为区域经济可视化与动态模拟提供有效的技术支持；3.GIS空间分析功能可以直接应用于区域经济活动中。</li>
+</ul>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/natarajmb">Nataraj Basappa</a> 2018</p>
+  </div>
+</section>
+
+
